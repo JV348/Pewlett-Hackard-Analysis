@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 -- Deliverable 1: Number of Retiring Employees 
 -- Obtain and display the expected retirees 
 SELECT e.first_name, 
@@ -60,3 +61,15 @@ ORDER BY e.emp_no;
 
 SELECT * FROM membership_eligibility
 
+=======
+-- Use Dictinct with Orderby to remove duplicate rows
+SELECT DISTINCT ON (______) _____,
+______,
+______,
+______
+
+INTO nameyourtable
+FROM _______
+WHERE _______
+ORDER BY _____, _____ DESC;
+>>>>>>> 2df8158bdf93956e723a9d4f3bbb172cdab9b0bd
